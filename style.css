@@ -2,7 +2,8 @@
 
 .homepage-header{
     display: flex;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Poppins';
+    font-weight: bold;
     color: #36476D;
     text-align: center; 
     position: relative;
