@@ -1,3 +1,9 @@
+.search-containe{
+  display: inline-block;
+  justify-content: center;
+  float: center;
+
+}
 .logo{
   padding: 25px;
   position: relative;
@@ -116,9 +122,7 @@ body {
 }
 
 .topnav .search-container {
-  border-bottom: 20px;
-  font-family: poppins;
-  align-items: center;
+  display: flex;
   text-align: center;
   background-color: #AFD7FA;
   padding-inline: 20px;
@@ -143,17 +147,7 @@ body {
 }
 
 .topnav .search-container button {
-  position: relative;
-  display: flex;
-  flex-flow: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  float: right;
-  padding-inline: 10px;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
+
   background: #ddd;
   font-size: 17px;
   border: none;
@@ -169,7 +163,8 @@ body {
 
 @media screen and (max-width: 600px) {
   .topnav .search-container {
-    float: none;
+    display: flex;
+    float: center;
     background-color: #AFD7FA;
     position: relative;
     display: flex;
