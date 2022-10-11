@@ -1,7 +1,9 @@
-.search-containe{
+.search-container{
+  padding: 5px;
+  font-family: 'Poppins';
   display: inline-block;
   justify-content: center;
-  float: center;
+  padding-bottom: 12px;
 
 }
 .logo{
