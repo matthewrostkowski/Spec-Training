@@ -1,5 +1,3 @@
-* {box-sizing: border-box;}
-
 .logo{
   padding: 25px;
   position: relative;
@@ -81,7 +79,6 @@
   font-family: poppins;
   font-size: 20px;
   padding: 2%;
-  float: center;
   background-color: white;
   border-radius: 15px;
   flex-direction: row;
@@ -123,7 +120,6 @@ body {
   font-family: poppins;
   align-items: center;
   text-align: center;
-  float: right;
   background-color: #AFD7FA;
   padding-inline: 20px;
   border-radius: 15px;
