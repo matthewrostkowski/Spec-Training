@@ -22,7 +22,7 @@ function App() {
       </div>
       <div class="Header">Spectator's Sources</div>
       <Form></Form>
-      <List>itemList={itemList} handleDelete={handleDelete}</List>
+      <List itemList={itemList} handleDelete={handleDelete}></List>
     </div>
   );
 }
